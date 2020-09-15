@@ -14,8 +14,8 @@ The hash table is an array of size 26 which utilizes the data types
 within the Symbol struct. Based on the hash/insert function, the symbols
 are sorted out by its first letter alphabetically and collisions are dealt 
 with by separate chaining (linked lists). The output will yield the symbol
-table, which is the symbol name 
-```<tab>hex address <CrLf>``` 
+table, which is the symbol 
+```name <tab>hex address <CrLf>``` 
 Besides the necessary 
 symbol checks stated earlier, other checks that state the error and exit 
 include duplicate symbols. The address should be incremented accordingly, and 
