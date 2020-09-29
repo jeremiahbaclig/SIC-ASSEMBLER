@@ -1,2 +1,2 @@
 language = "c"
-run = "gcc passone.c -o pass1; ./pass1 test.txt"
+run = "gcc passone.c -o pass1; ./pass1 test.sic"
