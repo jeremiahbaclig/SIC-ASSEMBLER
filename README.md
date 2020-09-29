@@ -1,4 +1,7 @@
 # SIC-ASSEMBLER
+
+[![Run on Repl.it](https://repl.it/badge/github/jeremiahbaclig/SIC-ASSEMBLER)](https://repl.it/github/jeremiahbaclig/SIC-ASSEMBLER)
+
 Pass 1 and Pass 2 (in progress) of a two-pass assembler.
 
 PASS 1: 	Based on the file input, the program
