@@ -243,11 +243,11 @@ int main(int argc, char *argv[]) {
                 }
 
                 if(Temp->Address > pow(2, 15)){
-                  printf("\nASSEMBLY ERROR \nline %d: Memory Exceeded (> 8000):\n%x\nexiting...\n", symctr+1, Temp->Address);
+                  printf("\nASSEMBLY ERROR \nline %d: Memory Exceeded (> 8000):\n%X\nexiting...\n", symctr+1, Temp->Address);
                   return 1; 
                 }
                 else {
-                  printf("%s\t%x\n", temp[0], Temp->Address);
+                  printf("%s\t%X\n", temp[0], Temp->Address);
                 }
               }
               
@@ -266,11 +266,11 @@ int main(int argc, char *argv[]) {
                 }
 
                 if(Temp->Address > pow(2, 15)){
-                  printf("\nASSEMBLY ERROR \nline %d: Memory Exceeded (> 8000):\n%x\nexiting...\n", symctr+1, Temp->Address);
+                  printf("\nASSEMBLY ERROR \nline %d: Memory Exceeded (> 8000):\n%X\nexiting...\n", symctr+1, Temp->Address);
                   return 1; 
                 }
                 else {
-                  printf("%s\t%x\n", temp[0], Temp->Address);
+                  printf("%s\t%X\n", temp[0], Temp->Address);
                 }
                 address += 3;
               }
@@ -290,11 +290,11 @@ int main(int argc, char *argv[]) {
                 }
 
                 if(Temp->Address > pow(2, 15)){
-                  printf("\nASSEMBLY ERROR \nline %d: Memory Exceeded (> 8000):\n%x\nexiting...\n", symctr+1, Temp->Address);
+                  printf("\nASSEMBLY ERROR \nline %d: Memory Exceeded (> 8000):\n%X\nexiting...\n", symctr+1, Temp->Address);
                   return 1; 
                 }
                 else {
-                  printf("%s\t%x\n", temp[0], Temp->Address);
+                  printf("%s\t%X\n", temp[0], Temp->Address);
                 }
                
                 char *other;
